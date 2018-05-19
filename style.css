@@ -1,0 +1,13 @@
+form{
+    display: block;
+    background-color: rgb(229, 237, 241);
+    width: 30%;
+}
+fieldset{
+    border-style:groove;
+    border-color: cornflowerblue;
+}
+legend{
+    font-style: normal;
+
+}
