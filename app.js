@@ -32,3 +32,6 @@ function dividir1() {
   document.getElementById('result').textContent = resultado;
 
 }
+function limpar(){
+  document.getElementById("result").textContent = "";
+}
