@@ -1,25 +1,25 @@
-function Somar1() {
+function somar1() {
   var n1 = document.getElementById("n1").value;
   var n2 = document.getElementById("n2").value;
   var resultado = parseFloat(n1) + parseFloat(n2);
   document.getElementById('result').textContent = resultado;
 
 }
-function Subtrair1() {
+function subtrair1() {
   var n1 = document.getElementById("n1").value;
   var n2 = document.getElementById("n2").value;
   var resultado = parseFloat(n1) - parseFloat(n2);
   document.getElementById('result').textContent = resultado;
 
 }
-function Multiplicar1() {
+function multiplicar1() {
   var n1 = document.getElementById("n1").value;
   var n2 = document.getElementById("n2").value;
   var resultado = parseFloat(n1) * parseFloat(n2);
   document.getElementById('result').textContent = resultado;
 
 }
-function Dividir1() {
+function dividir1() {
   var n1 = document.getElementById("n1").value;
   var n2 = document.getElementById("n2").value;
   var resultado;
